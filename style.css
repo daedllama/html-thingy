@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Minomu';
+    src: url('https://www.fontspace.com/download/86690/9b8b6b8f8b8d5b6b4e6f9a0e10f1d6ba/owlking-minomu-font.zip') format('zip');
+  }
+html {
+    user-select: none;
+    font-family: 'minomu', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background: url(https://images.wallpapersden.com/image/download/cloud-reflection-4k-landscape-river_bmZoZ22UmZqaraWkpJRobWllrWdnaWU.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+h1 {
+    text-align: center;
+    font-size: 200px;
+    color: white;
+    text-shadow: 10px 10px black;
+}
+h1.main {
+    text-align: center;
+    font-size: 250px;
+    color: white;
+    text-shadow: 10px 10px black;
+    position: absolute;
+    top: 30%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+button.enter {
+        font-size: 150px;
+        color: white;
+        text-shadow: 10px 10px black;
+        position: absolute;
+        top: 46.3%;
+        background-color: transparent;
+        border: solid 1px transparent;
+        height: auto;
+        width: auto;
+        transition: ease-out 0.3s;  
+        left: 9%;
+}
+button.info {
+    align-self: center;
+    font-size: 150px;
+    color: white;
+    text-shadow: 10px 10px black;
+    background-color: transparent;
+    border: solid 1px transparent;
+    height: auto;
+    width: auto;
+    transition: ease-out 0.3s;  
+    left: 12%;
+}
+
+button:hover{
+    font-size: 175px;   
+}
+button:active {
+        transform: scale(1.075);
+}
+
+
+
+
+#page1, #page2 {
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide-out {
+    transform: translateX(-100%);
+}
+
+.slide-in {
+    transform: translateX(0);
+}
